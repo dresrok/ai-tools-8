@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="1.484">
+  <testsuite name="MortgageInstallmentCalculator" errors="0" failures="0" skipped="0" timestamp="2024-12-03T21:25:39" time="1.451" tests="7">
+    <testcase classname="MortgageInstallmentCalculator should calculate monthly payment when amounts are small" name="MortgageInstallmentCalculator should calculate monthly payment when amounts are small" time="0.001">
+    </testcase>
+    <testcase classname="MortgageInstallmentCalculator should calculate monthly payment when amount is large" name="MortgageInstallmentCalculator should calculate monthly payment when amount is large" time="0">
+    </testcase>
+    <testcase classname="MortgageInstallmentCalculator should calculate monthly payment when principal is zero" name="MortgageInstallmentCalculator should calculate monthly payment when principal is zero" time="0">
+    </testcase>
+    <testcase classname="MortgageInstallmentCalculator should calculate monthly payment when interest rate is zero" name="MortgageInstallmentCalculator should calculate monthly payment when interest rate is zero" time="0">
+    </testcase>
+    <testcase classname="MortgageInstallmentCalculator should throw InvalidInputException on negative tenure" name="MortgageInstallmentCalculator should throw InvalidInputException on negative tenure" time="0.005">
+    </testcase>
+    <testcase classname="MortgageInstallmentCalculator should throw InvalidInputException on negative interest rate" name="MortgageInstallmentCalculator should throw InvalidInputException on negative interest rate" time="0.001">
+    </testcase>
+    <testcase classname="MortgageInstallmentCalculator should throw InvalidInputException on negative principal amount" name="MortgageInstallmentCalculator should throw InvalidInputException on negative principal amount" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
